@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         $0.dataSource = self
         $0.backgroundColor = .white
         $0.register(CardCell.self, forCellWithReuseIdentifier: CardCell.id)
-        $0.contentInset = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
+        $0.contentInset = UIEdgeInsets(top: 0, left: 25, bottom: 0, right: 30)
         return $0
     }(UICollectionView(frame: view.frame, collectionViewLayout: UICollectionViewFlowLayout()))
 
